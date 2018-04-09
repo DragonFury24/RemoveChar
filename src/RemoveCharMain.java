@@ -17,10 +17,9 @@ public class RemoveCharMain {
 
         if (word.substring(0, word.length() - 1).contains(word.substring(word.length() - 1)))
             return removeDups(word.substring(0, word.length() - 1));
-        else
-            return removeDups(word.substring(0, word.length() - 1)) + word.substring(word.length() - 1);
-    }
 
+        return removeDups(word.substring(0, word.length() - 1)) + word.substring(word.length() - 1);
+    }
 
 
 }
